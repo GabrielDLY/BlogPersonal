@@ -8,7 +8,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 a {
    text-decoration: none;
@@ -57,9 +57,9 @@ nav {
     grid-template-columns: 1fr 1fr;
     height: 90px;
 }
-nav .nav-logo-container {
+/* nav .nav-logo-container {
     margin-left: 50px;
-}
+} */
 nav .nav-logo-container img {
     width: 220px;
     margin-top: 10px;
@@ -68,10 +68,10 @@ nav .profile-link {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 nav .profile-link a {
-    font-family: 'Roboto', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
@@ -99,24 +99,39 @@ nav .profile-link a {
     margin-top: 80px;
 }
 .home-main-text {
-    font-family: 'Roboto mono', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 3.5rem;
-    font-weight: 700px;
+    font-weight: bold;
     letter-spacing: 10px;
-    color: white;
+    color: #FFE4E1;
     text-align: center;
 }
 .home-main-button {
-    width: 110px;
+    width: 225px;
     height: 50px;
-    background-color: #9c357e;
+    background-color: white;
     display: grid;
     align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    display: inline-block;
+    justify-content: space-between;
 }
 
-.home-main-button {
-    font-weight: 700px;
+.home-main-button img{
+    width: 25px;
+}
+
+.home-main-button a {
+    font-weight: bold;
     font-size: 2rem;
+    color: indianred;
 }
 
 .blogs-main {
